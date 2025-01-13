@@ -1,0 +1,108 @@
+body {
+  background: #ffe6f1; /* Light pink background */
+  color: #444444;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Pen Title */
+.pen-title {
+  padding: 50px 0;
+  text-align: center;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #ff8aa8, #ffcee0); /* Pink gradient */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.pen-title h1 {
+  margin: 0 0 20px;
+  font-size: 48px;
+  font-weight: 600;
+  color: #c4347c;
+}
+.pen-title span {
+  font-size: 14px;
+  color: #ff23f4;
+}
+.pen-title span .fa {
+  color: #f117cd;
+}
+.pen-title span a {
+  color: #ff42c0;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid #a32020;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffe6f1;
+}
+
+.login-form {
+  width: 380px;
+  height: 500px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ff8aa8; /* Pink border */
+}
+
+.login-form h2 {
+  text-align: center;
+  color: #ff6699; /* Darker pink */
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ff99b3; /* Light pink border */
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #ff6699; /* Darker pink on focus */
+  outline: none;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff6699; /* Button pink */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #ff3366; /* Darker pink on hover */
+}
+
+.login-form .forgot-password {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+}
+
+.login-form .forgot-password a {
+  color: #ff6699;
+  text-decoration: none;
+}
+
+.login-form .forgot-password a:hover {
+  text-decoration: underline;
+}
